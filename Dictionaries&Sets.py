@@ -10,8 +10,8 @@ print("Student-Info : ",info)
 
 # Nested Dictionary
 student = {
-    "name ": "Prince Bhagat",
-    "age " : 19,
+    "name": "Prince Bhagat",
+    "age" : 19,
     "subjects" : {
         "maths" : 75,
         "science" : 87,
@@ -21,3 +21,8 @@ student = {
 print("student : ",student)
 print("student's subjects : ",student["subjects"])
 print("student's chemistry marks : ",student["subjects"]["chemistry"])
+
+print(student.get("age"))
+new_dict = {"city" : "Palghar"}
+student.update(new_dict)
+print(student)
