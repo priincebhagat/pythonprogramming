@@ -48,3 +48,20 @@ print("my_set after removing 3 : ",my_set)
 popping = { "Prince" , "Bishal" , "Rohit" , "Hriday"}
 print(popping.pop())
 
+#Practice Q1
+# Create a dictionary to store information about a book, including its title, author, and publication
+book_info ={
+        "title" : "Dont Believe in Everything You Think",
+        "author" : "Joseph Nguyen",
+        "publication_year" : 2020,
+}
+
+
+print(book_info)
+
+#Practice Q2
+# Create a set to store the names of students in a classroom, ensuring that each name is unique.
+#
+classroom = {"Python", "java", "Python", "c++","javascript","c","javascript"}
+
+print(len(classroom))
