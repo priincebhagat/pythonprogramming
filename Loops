@@ -1,7 +1,39 @@
 # While loop
-# 
-
+#while loop is used to execute a block of code repeatedly as long as a given condition is true.
 count = 1
-while count <= 5:
+while count <= 3:
     print("count : ", count)
     count += 1
+
+#practice question 1
+#print numbers from 100 to 1 using while loop
+i = 100
+while i >= 1:
+    print(i)
+    i -= 1 
+
+#practice question 2
+#print multiplication table of a number using while loop
+i = 1
+n = int(input("enter a number : "))
+while i <= 10:
+    print(n*i)
+    i += 1
+
+#practice question 3
+#print elements of a list using while loop
+num = [3,1,5,2,6,4,8,7]
+idx = 0
+while idx < len(num):
+    print(num[idx])
+    idx += 1
+
+#practice question 4
+#search an element in a list using while loop
+num = (3,1,5,2,6,4,8,7)
+x = 7
+i = 0
+while i < len(num):
+    if (num[i] == x):
+        print("found")
+    i += 1
