@@ -37,3 +37,23 @@ while i < len(num):
     if (num[i] == x):
         print("found")
     i += 1
+
+#For loop
+#for loop is used to iterate over a sequence (like a list, tuple, string)
+
+num = [1, 5, 8, 3, 6, 2, 4, 7]
+for val in num:
+    print(val)
+
+#practice question
+#search an element in a tuple using for loop
+num = (1, 5, 8, 3, 6, 2, 4, 7)
+x = 9
+idx = 0
+for val in num:
+    if val == x:
+        print("found the element at index : ", idx)
+        break
+    idx += 1
+else:
+    print("not found")
