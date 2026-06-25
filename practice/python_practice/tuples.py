@@ -8,3 +8,10 @@ distance = ((x2 - x1)**2 + (y2 - y1)**2)**0.5
 print("Distance : ",round(distance, 2))
 
 # Problem 2 - Tuple Swapper
+
+a = input("Enter the first value : ")
+b = input("Enter the second value : ")
+my_tuple = a, b
+swapped = b, a
+print("Original : ", my_tuple)
+print("Swapped : ",swapped)
