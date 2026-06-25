@@ -1,12 +1,10 @@
-# ============================================
 # Problem 1 - Coordinates Distance
-# ============================================
+point1 = (2,5)
+point2 = (1,4)
 
-# your code here
+x1 , y1 = point1
+x2 , y2 = point2
+distance = ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+print("Distance : ",round(distance, 2))
 
-
-# ============================================
 # Problem 2 - Tuple Swapper
-# ============================================
-
-# your code here
