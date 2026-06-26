@@ -18,3 +18,13 @@ def add(a, b):
 
 result = add(3, 5)   
 print(result) 
+
+#Practice Question
+#Average of 3 numbers
+
+def calc_avg(a, b, c):
+    sum = a + b + c
+    average = sum / 3
+    print("Average of the number is : ",round(average, 2))
+
+calc_avg(18, 25, 17)
