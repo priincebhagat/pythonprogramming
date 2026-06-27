@@ -34,6 +34,18 @@ calc_avg(18, 25, 17)
 
 def converter(usd_value):
     ind_value = usd_value * 94
-    print(usd_value,"USD : ",ind_value," INR")
+    print(usd_value,"USD : ",ind_value,"INR")
 
 converter(18)
+
+#practice Question 3
+# take the user input and find whether the number is even or odd
+
+def check_even_or_odd(value):
+    if value % 2 == 0:
+        print(value," is even")
+    else :
+        print(value," is odd")
+
+value = int(input("Enter the number : "))
+check_even_or_odd(value)
