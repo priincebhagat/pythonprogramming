@@ -28,3 +28,12 @@ def calc_avg(a, b, c):
     print("Average of the number is : ",round(average, 2))
 
 calc_avg(18, 25, 17)
+
+#Practice Question 2
+# convert usd into inr
+
+def converter(usd_value):
+    ind_value = usd_value * 94
+    print(usd_value,"USD : ",ind_value," INR")
+
+converter(18)
