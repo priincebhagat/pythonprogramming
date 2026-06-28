@@ -9,4 +9,15 @@ for name, phone in contacts.items():
     print("Name : ",name, ",  Phone : ",phone)
 
 
-# Problem 2 - Word Frequency Counter
+# Problem 2 - Student grade Checker
+
+class_info = {
+    "prince": 94,
+    "riya":74,
+    "deepak":35
+}
+for name, marks in class_info.items():
+    if marks >= 40 :
+        print(name," Passed")
+    else :
+        print(name," failed")
