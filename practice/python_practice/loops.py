@@ -1,12 +1,8 @@
-# ============================================
 # Problem 1 - Multiplication Table
-# ============================================
+#Ask the user for a number and print its multiplication table from 1 to 10.
+n = int(input("Enter the number : "))
 
-# your code here
+for i in range(1, 11):
+    table = n * i
 
-
-# ============================================
-# Problem 2 - Sum Until Zero
-# ============================================
-
-# your code here
+print(n, "x", i, "=",table)
