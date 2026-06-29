@@ -5,4 +5,11 @@ n = int(input("Enter the number : "))
 for i in range(1, 11):
     table = n * i
 
-print(n, "x", i, "=",table)
+    print(n, "x", i, "=",table)
+
+# Problem 2 
+
+n = 1
+while n <= 8:
+    print(n)
+    n = n + 1
