@@ -19,7 +19,7 @@ def add(a, b):
 result = add(3, 5)   
 print(result) 
 
-#Practice Question
+#Practice Question 1
 #Average of 3 numbers
 
 def calc_avg(a, b, c):
@@ -60,3 +60,14 @@ def calc_sum(n):
 
 sum = calc_sum(10)
 print("Sum of the given number is : ",sum)
+
+#Practice Question
+# Write a recursive function to print all elements in a list.
+def print_list(list, idx):
+    if (idx == len(list)):
+        return
+    print(list[idx])
+    print_list(list, idx+1)
+
+students = ("Prince", "Bishal", "Rohit", "Pradeep")
+print_list(students, 0)
