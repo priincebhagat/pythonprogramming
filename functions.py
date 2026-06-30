@@ -49,3 +49,14 @@ def check_even_or_odd(value):
 
 value = int(input("Enter the number : "))
 check_even_or_odd(value)
+
+#Recursion
+# Write a recursive function to calculate the sum of first n natural numbers.
+
+def calc_sum(n):
+    if (n == 0):
+        return 0
+    return calc_sum(n-1) + n
+
+sum = calc_sum(10)
+print("Sum of the given number is : ",sum)
