@@ -1,0 +1,14 @@
+# Word Frequency Counter
+
+def word_frequency(sentence):
+    words = sentence.split()
+    counts = {}
+
+    for word in words:
+        if word in counts:
+            counts[word] = counts[word] + 1
+        else :
+            counts[word] = 1
+    return counts
+
+print (word_frequency("i love cat cat love food food is good"))
