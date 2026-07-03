@@ -14,7 +14,7 @@ def word_frequency(sentence):
 print (word_frequency("i love cat cat love food food is good"))
 
 # Count Vowels
-
+# Write a function count_vowels(word) that takes a single word (a string) and returns the number of vowels (a, e, i, o, u) in it.
 def count_vowels(word):
     vowels = "aeiouAEIOU"
     count = 0
@@ -26,7 +26,7 @@ def count_vowels(word):
 print(count_vowels("Prince Bhagat"))
 
 # Find the Largest Number
-
+# Write a function find_largest(numbers) that takes a list of numbers and returns the largest one — without using Python's built-in max()
 def find_largest(numbers):
     largest = numbers[0]
 
@@ -39,3 +39,15 @@ def find_largest(numbers):
 print(find_largest([15, 3, 42, 8, 23]))        
 
 # Count Even Numbers
+# Write a function count_evens(numbers) that takes a list of numbers and returns how many of them are even.
+
+def count_evens(numbers):
+    even_number = 0
+
+    for even in numbers:
+        if even % 2 == 0:
+            even_number += 1
+
+    return even_number
+
+print(count_evens([1, 2, 3, 4, 5, 6]))
