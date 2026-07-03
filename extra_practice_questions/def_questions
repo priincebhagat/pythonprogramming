@@ -6,7 +6,7 @@ def word_frequency(sentence):
 
     for word in words:
         if word in counts:
-            counts[word] = counts[word] + 1
+            counts[word] += 1
         else :
             counts[word] = 1
     return counts
@@ -24,3 +24,18 @@ def count_vowels(word):
     return count
 
 print(count_vowels("Prince Bhagat"))
+
+# Find the Largest Number
+
+def find_largest(numbers):
+    largest = numbers[0]
+
+    for num in numbers:
+        if num > largest:
+            largest = num
+
+    return largest 
+
+print(find_largest([15, 3, 42, 8, 23]))        
+
+# Count Even Numbers
