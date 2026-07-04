@@ -51,3 +51,17 @@ def count_evens(numbers):
     return even_number
 
 print(count_evens([1, 2, 3, 4, 5, 6]))
+
+# Sum of a List
+# Write a function sum_list(numbers) that takes a list of numbers and returns the total sum of all of them — without using Python's built-in sum() function.
+
+def sum_list(numbers):
+    calc_list = 0
+
+    for nums in numbers:
+        calc_list += nums
+
+    return calc_list
+
+print(sum_list([25, 18, 17, 20]))
+
