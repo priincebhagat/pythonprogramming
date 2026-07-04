@@ -78,3 +78,17 @@ def average(numbers):
     return total / count
 
 print(average([18, 25, 17])) 
+
+# Count Occurrences of a Specific Value
+# Write a function count_occurrences(numbers, target) that takes a list of numbers and a target number, and returns how many times target appears in the list.
+
+def count_occurrences(number, target):
+    count = 0
+
+    for num in number:
+        if num == target:
+            count = count + 1
+
+    return count
+    
+print(count_occurrences([3, 7, 3, 3, 9, 7], 3))
