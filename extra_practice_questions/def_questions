@@ -65,3 +65,16 @@ def sum_list(numbers):
 
 print(sum_list([25, 18, 17, 20]))
 
+# Average of a List
+# Write a function average(numbers) that takes a list of numbers and returns their average
+
+def average(numbers):
+    total = 0
+    count = 0
+
+    for num in numbers:
+        total += num
+        count = count + 1
+    return total / count
+
+print(average([18, 25, 17])) 
