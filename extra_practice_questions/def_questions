@@ -92,3 +92,17 @@ def count_occurrences(number, target):
     return count
     
 print(count_occurrences([3, 7, 3, 3, 9, 7], 7))
+
+# Check if a Number is Prime
+
+def is_prime(n):
+    if n < 2:
+        return False
+
+    for i in range(2, n):
+        if n % i == 0:
+            return False
+
+    return True
+
+print(is_prime(13))
