@@ -106,3 +106,15 @@ def is_prime(n):
     return True
 
 print(is_prime(13))
+
+# Reverse a List
+# Write a function reverse_list(numbers) that takes a list of numbers and returns a new list with the elements in reverse order — without using Python's built-in .reverse() method or [::-1] slicing.
+
+def reverse_list(numbers):
+    reversed_numbers = []
+    
+    for num in numbers:
+        reversed_numbers.insert(0, num)
+    
+    return reversed_numbers
+print(reverse_list([1,2,3,4,5]))
