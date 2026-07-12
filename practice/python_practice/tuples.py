@@ -1,6 +1,6 @@
 # Problem 1 - Coordinates Distance
 point1 = (2,5)
-point2 = (1,4)
+point2 = (1,8)
 
 x1 , y1 = point1
 x2 , y2 = point2
