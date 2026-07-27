@@ -1,13 +1,4 @@
-f = open("Loops","r")
-
-line1 = f.readline()
-print(line1)
-
-line2 = f.readline()
-print(line2)
-
-line3 = f.readline()
-print(line3)
-
-f.close()
-
+with open("practice/python_practice/sample.txt", "r+") as f:
+   data = f.read()
+   print(data)
+   data = f.write("this")
