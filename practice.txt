@@ -1,4 +1,0 @@
-Hi everyone!
-I am learning file I/O,
-using java
-I like proggramming in java.

@@ -1,3 +1,8 @@
-with open ("practice.txt","w") as f:
-    f.write("Hi everyone!\nI am learning file I/O,\n")
-    f.write("using java\nI like proggramming in java.")
+with open("demo.txt", "r") as f:
+    data = f.read()
+
+new_data = data.replace("java", "Python")
+print(new_data)
+
+with open("demo.txt", "w") as f:
+    f.write(new_data)
