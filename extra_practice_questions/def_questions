@@ -11,7 +11,7 @@ def word_frequency(sentence):
             counts[word] = 1
     return counts
 
-print (word_frequency("i love cat cat love food food is good"))
+print(word_frequency("i love cat cat love food food is good"))
 
 # Count Vowels
 # Write a function count_vowels(word) that takes a single word (a string) and returns the number of vowels (a, e, i, o, u) in it.

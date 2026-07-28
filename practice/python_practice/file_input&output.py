@@ -1,8 +1,10 @@
+count = 0
 with open("demo.txt", "r") as f:
     data = f.read()
 
-new_data = data.replace("java", "Python")
-print(new_data)
+    nums = data.split(",")
+    for val in nums:
+        if (int(val) % 2 == 0):
+            count += 1
 
-with open("demo.txt", "w") as f:
-    f.write(new_data)
+print(count)

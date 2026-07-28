@@ -1,4 +1,1 @@
-Hi everyone!
-I am learning File I/O,
-using Python
-I like programming in Python
+1, 4, 7, 12, 14, 20, 23
